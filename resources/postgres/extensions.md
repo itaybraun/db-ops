@@ -15,8 +15,8 @@ Extensions play a crucial role in PostgreSQL for several reasons:
 
 PostgreSQL boasts an impressive collection of over 1,000 extensions available in its official repository (PGXN) and various third-party sources. Keeping track of all available extensions can be a daunting task. However, this repository aims to provide an overview of some of the most important and widely used extensions.
 
-### Essential Extensions
-
+## Essential Extensions
+### General 
 1. **PostGIS**: A powerful spatial database extension for geographic information systems (GIS).
 2. **pg_trgm**: Provides trigram-based text similarity functions and indexes for fast pattern matching.
 3. **pg_stat_statements**: Tracks execution statistics of SQL statements, allowing performance analysis and optimization.
@@ -24,8 +24,9 @@ PostgreSQL boasts an impressive collection of over 1,000 extensions available in
 5. **pg_cron**: A simple cron-based job scheduler for PostgreSQL.
 6. **pgRouting**: Provides geospatial routing functionality for road networks and other transportation networks.
 
-### Community Extensions
-
-While the list of essential extensions covers some of the most widely used ones, the PostgreSQL community has contributed countless other extensions to address various needs. From full-text search capabilities with pg_trgm to data encryption with pgcrypto, the extensibility of PostgreSQL ensures that developers can find or create solutions tailored to their specific requirements.
-
-This repository will continuously evolve to showcase and document the most notable and useful extensions, making it easier for developers to leverage the power of PostgreSQL's extensibility.
+### AI
+#### pgai
+[pgai](https://github.com/timescale/pgai) simplifies the process of building search, and Retrieval Augmented Generation(RAG) AI applications with PostgreSQL. pgai brings embedding and generation AI models closer to the database. With pgai, you can now do the following directly from within PostgreSQL in a SQL query:
+- Create embeddings for your data.
+- Retrieve LLM chat completions from models like OpenAI GPT4o.
+- Reason over your data and facilitate use cases like classification, summarization, and data enrichment on your existing relational data in PostgreSQL.
