@@ -9,4 +9,5 @@ The main considerations when configuring an RDS.
 - **Configure the PostgreSQL Server**: Fine-tune PostgreSQL settings to optimize performance and stability.
 - **Configure Monitoring**: Utilize CloudWatch and SQL Performance Insights to monitor database performance and gain insights into query efficiency and resource usage.
 - **Configure Logging**: Implement logging to track database activities and troubleshoot issues effectively.
+- **Install Useful Extensions**: Enable useful PostgreSQL extensions like `pg_stat_statements` to enhance functionality and performance.
 - **Advanced (Optional) Configuration**: Take advantage of AWS-specific features like DevOps Guru and Change Log for enhanced management and operational capabilities.
