@@ -28,3 +28,5 @@ These extensions do not consume any significant resources when installed and can
 - **Purpose**: Allows creation of hypothetical indexes that do not physically exist in the database.
 - **Usage**: Helps in query planning and performance testing by allowing DBAs to see how different indexes might affect query performance without actually creating them.
 - **Impact**: No impact on performance except when evaluating hypothetical indexes. The hypothetical indexes are only considered during query planning, not execution.
+
+**pg_proctab**
